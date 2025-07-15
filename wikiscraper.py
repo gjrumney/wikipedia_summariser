@@ -5,7 +5,7 @@ import re
 from transformers import pipeline
 import logging
 
-logging.getLogger("transformers").setLevel(logging.ERROR)   
+logging.getLogger("transformers").setLevel(logging.ERROR)   # removes annoying log
 
 summariser = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6", device=-1)
 
