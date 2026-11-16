@@ -1,5 +1,5 @@
 # wikipedia_summariser
-A tool for scrapping and summarising Wikipedia articles.
+A tool for scraping and summarising Wikipedia articles.
 
 NOTES:
 This project forced me to learn about a variety of different libraries, starting with bs4. I found understanding its functionality was actually quite simple, and was likely the least complex part of the process - other than the requests module, of course.
